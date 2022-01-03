@@ -1,0 +1,30 @@
+Get point of center by cadastral number
+
+GET /open/cadastral/find-center-by-cadastral-number HTTP/1.1
+Host: https://soft.farm/api
+ClientId: LMRZYHROM1o94YQQXMs42-P3s-n6thKQVu9EjS17SCX3nnqT151Ile035wvCi7hC1E33fzxUSJuYnHgB
+
+This method returns point with lat and lng. 
+
+Parameters (params):
+
+clientId:   client_id (Oauth2, String)
+cadastralNumber: Sought cadastral number (String)
+
+
+
+
+Example: 5324883201:01:001:0115
+Result:
+{
+    "status": true,
+    "data": {
+        "lat": 49.796856016667476,
+        "lng": 32.949500951490315
+    }
+}
+Or 
+{
+    "status": true,
+    "data": null
+}
