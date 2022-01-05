@@ -1,1 +1,9 @@
+>> Конспектировани процесса <<
 composer create-project --prefer-dist --stability=dev yiisoft/yii2-app-basic basic-one
+
+Пример взят с документации:
+https://www.yiiframework.com/doc/guide/2.0/ru/start-hello
+-> Сработает по адресу (человеко-понятные урлы не настроены)
+site.loc/index.php?r=site%2Fsay
+-> Передача параметра в адресной строке
+site.loc/index.php?r=site%2Fsay&message=Привет+мир
